@@ -133,7 +133,7 @@
     </script>
     <script>
       $(document).ready(function() {
-        fetch("http://spartacodingclub.shop/sparta_api/seoulair")
+        fetch("https://spartacodingclub.shop/sparta_api/seoulair")
           .then(res => res.json())
           .then(data => {
             let status = data['RealtimeCityAir']['row'][0]['IDEX_NM'];
